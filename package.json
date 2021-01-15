@@ -1,0 +1,13 @@
+{
+  "name": "vwap-calculator",
+  "version": "1.0.0",
+  "description": "VWAP calculator exercise",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

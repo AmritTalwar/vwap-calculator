@@ -1,0 +1,5 @@
+# ignore compiled output
+/dist
+
+# ignore node module files
+/node_modules
