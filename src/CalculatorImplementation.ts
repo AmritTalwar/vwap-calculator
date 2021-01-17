@@ -12,7 +12,7 @@ export class CalculatorImplementation implements Calculator {
     // get the market update price, market and instrument
     const updatePrice: TwoWayPrice = twoWayPrice.getTwoWayPrice();
     const updateMarket: number = twoWayPrice.getMarket();
-    const updateInstrument = updatePrice.getInstrument();
+    const updateInstrument: number = updatePrice.getInstrument();
 
     // retrieve the most recent vwap values for the instrument in the market update
     const instrumentVwapParts: VwapParts = this.vwapStore[updateMarket][
