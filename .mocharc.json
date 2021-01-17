@@ -1,0 +1,5 @@
+{
+  "extension": ["ts", "tsx"],
+  "spec": ["src/**/*.spec.tsx"],
+  "require": ["jsdom-global/register", "./src/test/compiler.ts"]
+}

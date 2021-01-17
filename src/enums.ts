@@ -1,4 +1,4 @@
-enum Instrument {
+export enum Instrument {
   INSTRUMENT0,
   INSTRUMENT1,
   INSTRUMENT2,
@@ -21,7 +21,7 @@ enum Instrument {
   INSTRUMENT19,
 }
 
-enum Market {
+export enum Market {
   MARKET0,
   MARKET1,
   MARKET2,
@@ -73,12 +73,12 @@ enum Market {
   MARKET49,
 }
 
-enum Side {
+export enum Side {
   BID,
   OFFER,
 }
 
-enum State {
+export enum State {
   FIRM,
   INDICATIVE,
 }
