@@ -1,7 +1,6 @@
 import { TwoWayPriceImplementation } from "./TwoWayPriceImplementation";
-import { MarketUpdateImplementation } from "./MarketUpdateImplementation";
 
-import { Instrument, Market, State } from "./enums";
+import { Instrument, Market } from "./enums";
 import { VwapParts, Calculator, TwoWayPrice, MarketUpdate } from "./interfaces";
 
 export class CalculatorImplementation implements Calculator {

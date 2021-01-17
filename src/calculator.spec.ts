@@ -1,7 +1,6 @@
 import { expect } from "chai";
-import { Instrument } from "./enums";
+import { Instrument, Market, State } from "./enums";
 import { MarketUpdate, Calculator, TwoWayPrice } from "./interfaces";
-import { Market, State } from "./enums";
 import { MarketUpdateImplementation } from "./MarketUpdateImplementation";
 import { TwoWayPriceImplementation } from "./TwoWayPriceImplementation";
 import { CalculatorImplementation } from "./CalculatorImplementation";
