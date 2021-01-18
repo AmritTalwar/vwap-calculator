@@ -1,4 +1,4 @@
-import { TwoWayPriceImplementation } from "./TwoWayPriceImplementation";
+import { TwoWayPriceImplementation } from "./TwoWayPrice.implementation";
 
 import { Instrument, Market } from "./enums";
 import { VwapParts, Calculator, TwoWayPrice, MarketUpdate } from "./interfaces";
