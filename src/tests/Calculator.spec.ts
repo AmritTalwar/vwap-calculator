@@ -1,12 +1,13 @@
 import { expect } from "chai";
+
 import { Market } from "../enums/Market.enum";
 import { Instrument } from "../enums/Instrument.enum";
 import { State } from "../enums/State.enum";
-import {
-  MarketUpdate,
-  Calculator,
-  TwoWayPrice,
-} from "../interfaces/interfaces";
+
+import { MarketUpdate } from "../interfaces/MarketUpdate.interface";
+import { Calculator } from "../interfaces/Calculator.interface";
+import { TwoWayPrice } from "../interfaces/TwoWayPrice.interface";
+
 import { MarketUpdateImplementation } from "../implementations/MarketUpdate.implementation";
 import { TwoWayPriceImplementation } from "../implementations/TwoWayPrice.implementation";
 import { CalculatorImplementation } from "../implementations/Calculator.implementation";

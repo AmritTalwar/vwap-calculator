@@ -2,12 +2,11 @@ import { TwoWayPriceImplementation } from "./TwoWayPrice.implementation";
 
 import { Instrument } from "../enums/Instrument.enum";
 import { Market } from "../enums/Market.enum";
-import {
-  VwapParts,
-  Calculator,
-  TwoWayPrice,
-  MarketUpdate,
-} from "../interfaces/interfaces";
+
+import { VwapParts } from "../interfaces/VwapParts.interface";
+import { Calculator } from "../interfaces/Calculator.interface";
+import { TwoWayPrice } from "../interfaces/TwoWayPrice.interface";
+import { MarketUpdate } from "../interfaces/MarketUpdate.interface";
 
 export class CalculatorImplementation implements Calculator {
   // create a store for current vwap values of each instrument in each market to keep track of most recent vwaps
