@@ -1,4 +1,4 @@
-import { Market } from "../enums/enums";
+import { Market } from "../enums/Market.enum";
 import { MarketUpdate, TwoWayPrice } from "../interfaces/interfaces";
 
 export class MarketUpdateImplementation implements MarketUpdate {
