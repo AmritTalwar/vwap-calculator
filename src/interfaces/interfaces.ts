@@ -1,4 +1,6 @@
-import { Market, Instrument, State } from "../enums/enums";
+import { Market } from "../enums/Market.enum";
+import { Instrument } from "../enums/Instrument.enum";
+import { State } from "../enums/State.enum";
 
 export interface Calculator {
   applyMarketUpdate: (twoWayMarketPrice: MarketUpdate) => TwoWayPrice;

@@ -1,5 +1,7 @@
 import { expect } from "chai";
-import { Instrument, Market, State } from "../enums/enums";
+import { Market } from "../enums/Market.enum";
+import { Instrument } from "../enums/Instrument.enum";
+import { State } from "../enums/State.enum";
 import {
   MarketUpdate,
   Calculator,
