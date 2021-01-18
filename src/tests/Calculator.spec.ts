@@ -1,9 +1,13 @@
 import { expect } from "chai";
-import { Instrument, Market, State } from "./enums";
-import { MarketUpdate, Calculator, TwoWayPrice } from "./interfaces";
-import { MarketUpdateImplementation } from "./MarketUpdate.implementation";
-import { TwoWayPriceImplementation } from "./TwoWayPrice.implementation";
-import { CalculatorImplementation } from "./Calculator.implementation";
+import { Instrument, Market, State } from "../enums/enums";
+import {
+  MarketUpdate,
+  Calculator,
+  TwoWayPrice,
+} from "../interfaces/interfaces";
+import { MarketUpdateImplementation } from "../implementations/MarketUpdate.implementation";
+import { TwoWayPriceImplementation } from "../implementations/TwoWayPrice.implementation";
+import { CalculatorImplementation } from "../implementations/Calculator.implementation";
 
 // test for applyMarketUpdate functionality
 describe("applyMarketUpdate()", () => {

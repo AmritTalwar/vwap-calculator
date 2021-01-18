@@ -1,5 +1,5 @@
-import { Instrument, State } from "./enums";
-import { TwoWayPrice } from "./interfaces";
+import { Instrument, State } from "../enums/enums";
+import { TwoWayPrice } from "../interfaces/interfaces";
 
 export class TwoWayPriceImplementation implements TwoWayPrice {
   private instrument: Instrument;
